@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "923697511013",
+    "project_id": "davidvelz-diagnosticsystem",
+    "storage_bucket": "davidvelz-diagnosticsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923697511013:android:11b9302af512cc4327248c",
+        "android_client_info": {
+          "package_name": "com.davidvelz.diagnosticsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923697511013-e2erfuobbpei8dmosr69rfbg254iqov2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCWT-X189haf5r6eEhT0BQls8iD4z6pg8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923697511013-e2erfuobbpei8dmosr69rfbg254iqov2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.davidvelz.diagnosticsystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo5"
+        android:label="Sistema de Diagnostico"
+        android:roundIcon="@drawable/logo5"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DiagnosticSystem">
+        <activity
+            android:name=".query_details_view"
+            android:exported="false" />
+        <activity
+            android:name=".queries_list"
+            android:exported="false" />
+        <activity
+            android:name=".failure_description_n_solutions"
+            android:exported="false" />
+        <activity
+            android:name=".solution_description"
+            android:exported="false" />
+        <activity
+            android:name=".failure_list"
+            android:exported="false" />
+        <activity
+            android:name=".system_list"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

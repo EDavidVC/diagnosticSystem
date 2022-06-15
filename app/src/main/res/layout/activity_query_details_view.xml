@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_solution_description"
+    android:orientation="vertical"
+    tools:context=".query_details_view">
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:fontFamily="@font/bree_serif"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:id="@+id/query_key_information"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="5dp"
+        android:background="#747A8EFF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/query_details_information"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

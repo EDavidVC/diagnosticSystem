@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/bg_cover.xml" value="0.1715" />
+        <entry key="app/src/main/res/drawable/bg_failure.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/bg_failure_list.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/bg_mainButtons.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/bg_mbutton.xml" value="0.1485" />
+        <entry key="app/src/main/res/drawable/bg_principal.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/bg_solution_description.xml" value="0.1085" />
+        <entry key="app/src/main/res/drawable/bg_system.xml" value="0.2035" />
+        <entry key="app/src/main/res/drawable/bg_system_list.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2035" />
+        <entry key="app/src/main/res/layout/activity_fails_list.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/activity_failure_description_nsolutions.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_failure_list.xml" value="0.18659420289855072" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_queries_list.xml" value="0.17058572039333048" />
+        <entry key="app/src/main/res/layout/activity_query_details_view.xml" value="0.1441523118766999" />
+        <entry key="app/src/main/res/layout/activity_solution_description.xml" value="0.20729166666666668" />
+        <entry key="app/src/main/res/layout/activity_system_list.xml" value="0.15489130434782608" />
+        <entry key="app/src/main/res/layout/failure_template.xml" value="0.20625" />
+        <entry key="app/src/main/res/layout/query_template.xml" value="0.17058572039333048" />
+        <entry key="app/src/main/res/layout/solution_template.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/system_template.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

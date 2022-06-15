@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    android:elevation="2dp"
+    app:cardBackgroundColor="#EAEDED"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_system"
+        android:padding="20dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:id="@+id/query_key"/>
+
+
+</androidx.cardview.widget.CardView>
