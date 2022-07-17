@@ -7,6 +7,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -81,7 +82,7 @@ public class failure_description_n_solutions extends AppCompatActivity {
                     String image_URL = failureModel.getFailure_image();
 
                     failureDescriptionKey.setText(failureModel.getKey());
-                    failureDescriptionAbstract.setText(failureModel.getFailure_abstract());
+                    failureDescriptionAbstract.setText(Html.fromHtml(failureModel.getFailure_abstract()));
 
                     try {
                         Picasso.get().load(image_URL).placeholder(R.drawable.system_logo).into(failureDescriptionImage);

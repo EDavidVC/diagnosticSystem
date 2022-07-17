@@ -5,6 +5,7 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.TextView;
 
 import com.davidvelz.diagnosticsystem.objects.SolutionModel;
@@ -52,7 +53,7 @@ public class solution_description extends AppCompatActivity {
                     SolutionModel solutionModel = ds.getValue(SolutionModel.class);
 
                     solutionKey.setText(solutionModel.getKey());
-                    solutionDescription.setText(solutionModel.getDescription());
+                    solutionDescription.setText(Html.fromHtml(solutionModel.getDescription()));
                     priceSolution.setText(""+solutionModel.getPrice());
 
                 }

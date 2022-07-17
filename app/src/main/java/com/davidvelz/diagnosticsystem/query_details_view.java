@@ -3,6 +3,7 @@ package com.davidvelz.diagnosticsystem;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.TextView;
 
 public class query_details_view extends AppCompatActivity {
@@ -25,8 +26,11 @@ public class query_details_view extends AppCompatActivity {
 
         key_TV = findViewById(R.id.query_key_information);
         details_TV = findViewById(R.id.query_details_information);
+        //details_TV = stringRecived.replacingOccurrences(of: "\n", with: "\n")
 
         key_TV.setText(key_msj);
-        details_TV.setText(details_msj);
+        //.replace("/n", "\n").replace("<b>", "<b>").replace("</b>", "</b>")
+
+        details_TV.setText(Html.fromHtml(details_msj));
     }
 }

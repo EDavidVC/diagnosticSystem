@@ -46,7 +46,8 @@ public class AdapterSolution extends RecyclerView.Adapter<AdapterSolution.soluti
         double solutionPrice = solutionModelList.get(position).getPrice();
         String solutionID = solutionModelList.get(position).getSolution_id();
 
-        holder.solution_key.setText(solutionKey);
+        String idpluskey = position+1+".- "+solutionKey;
+        holder.solution_key.setText(idpluskey);
         holder.solution_price.setText(""+solutionPrice);
 
         holder.itemView.setOnClickListener(new View.OnClickListener(){

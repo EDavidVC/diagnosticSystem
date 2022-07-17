@@ -2,6 +2,7 @@ package com.davidvelz.diagnosticsystem.adapters;
 
 import android.content.Context;
 import android.content.Intent;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,7 @@ public class AdapterFailure extends RecyclerView.Adapter<AdapterFailure.failureH
         solutions.remove(null);
 
         holder.failureKey.setText(failureKey);
-        holder.failureAbstract.setText(failureAbstract);
+        holder.failureAbstract.setText(Html.fromHtml(failureAbstract));
         holder.failureSolutionsCount.setText(""+solutions.size());
 
 
